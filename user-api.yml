@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shop
+    username: postgres
+    password: 12345678
+    driver-class-name: org.postgresql.Driver
+
+services:
+  mail:
+    email: itacademy@itacademy.by
+    userName: itacademy
+    password: itacademy1
